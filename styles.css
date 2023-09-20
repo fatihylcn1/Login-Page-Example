@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#5e63b6, #f5c7f7);
+}
+
+.loginCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 2);
+    border-radius: 8px;
+}
+
+.loginCard h1 {
+    margin: 0 0 40px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.loginCard  .nickNameBox   {
+    position: relative;
+}
+
+.loginCard .nickNameBox  input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.loginCard .nickNameBox label {
+    position: absolute;
+    padding: 10px 0;
+    color: #fff;
+}
+
+
+
+.loginCard .nickNameBox input:focus ~ label ,
+.loginCard .nickNameBox input:valid ~ label {
+    top: -24px;
+    left: 0;
+    color: #ffffff;
+    font-size: 15px
+}
+
+.text {
+    font-weight: bold;
+}
+
+.gonder {
+  padding: 8px 16px;
+  margin: 4px 2px;
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .3);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.4;
+  transition: 0.4s;
+}
+
+.gonder:hover {
+    opacity: 2;
+}
+
+
+
+
